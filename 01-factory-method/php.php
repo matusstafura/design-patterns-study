@@ -1,58 +1,59 @@
 <?php
 
-interface PaymentGateway
+interface Notification
 {
-    public function pay(): void;
+    public function send(string $message): void;
 }
 
-class BankTransfer implements PaymentGateway
+// Concrete Classes
+class EmailNotification implements Notification
 {
-    public function pay(): void
+    public function send(string $message): void
     {
-        echo "Paid by bank transfer";
+        echo "Sent Email: $message";
     }
 }
 
-class Card implements PaymentGateway
+class SmsNotification implements Notification
 {
-    public function pay(): void
+    public function send(string $message): void
     {
-        echo "Paid by card";
+        echo "Sent SMS: $message";
     }
 }
 
-abstract class Checkout
+// Factory Method in the Base Class
+abstract class NotificationService
 {
-    abstract protected function createPaymentGateway(): PaymentGateway;
+    abstract protected function createNotification(): Notification;
 
-    public function processPayment(): void
+    public function notify(string $message): void
     {
-        $paymentGateway = $this->createPaymentGateway();
-        $paymentGateway->pay();
+        $notification = $this->createNotification();
+        $notification->send($message);
     }
 }
 
-class PayByBankTransfer extends Checkout
+// Concrete Factories
+class EmailService extends NotificationService
 {
-    protected function createPaymentGateway(): PaymentGateway
+    protected function createNotification(): Notification
     {
-        return new BankTransfer();
+        return new EmailNotification();
     }
 }
 
-class PayByCard extends Checkout
+class SmsService extends NotificationService
 {
-    protected function createPaymentGateway(): PaymentGateway
+    protected function createNotification(): Notification
     {
-        return new Card();
+        return new SmsNotification();
     }
 }
 
-function run(Checkout $checkout): void
-{
-    $checkout->processPayment();
-}
+// Usage
+$service = new EmailService();
+$service->notify("Hello via Email!"); // Outputs: Sent Email: Hello via Email!
 
-run(new PayByBankTransfer());
-run(new PayByCard());
-
+$service = new SmsService();
+$service->notify("Hello via SMS!"); // Outputs: Sent SMS: Hello via SMS!
