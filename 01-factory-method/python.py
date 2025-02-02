@@ -16,10 +16,14 @@ class Reddit(Social):
 def SocialFactory(platform):
     if platform == "bs":
         return Bluesky()
+    elif platform == "rd":
+        return Reddit()
+    else:
+        raise ValueError("Invalid platform")
 
 def main():
     try:
-        social = SocialFactory("bs")
+        social = SocialFactory("rd")
         social.login()
     except ValueError as e:
         print(e)
