@@ -1,5 +1,10 @@
 # Design Patterns
 
+### Materials
+
+#### python
+https://python-patterns.guide/
+
 ### Compile/Run
 
 ```c++
@@ -15,8 +20,7 @@ go run go.go
 ```
 
 ```java
-javac java.java
-java FactoryMethod.class
+javac Main.java && java Main
 ```
 
 ```js

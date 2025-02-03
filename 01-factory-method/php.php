@@ -51,9 +51,22 @@ class SmsService extends NotificationService
     }
 }
 
-// Usage
-$service = new EmailService();
-$service->notify("Hello via Email!"); // Outputs: Sent Email: Hello via Email!
+class Client
+{
+    public function __construct(protected NotificationService $service)
+    {
+    }
 
-$service = new SmsService();
-$service->notify("Hello via SMS!"); // Outputs: Sent SMS: Hello via SMS!
+    public function sendMessage(string $message = "Default Message"): void
+    {
+        $this->service->notify($message);
+    }
+}
+
+// Usage
+$client = new Client(new EmailService());
+$client->sendMessage("Hello via Email!"); // Outputs: Sent Email: Hello via Email!
+
+$client = new Client(new SmsService());
+$client->sendMessage("Hello via SMS!"); // Outputs: Sent SMS: Hello via SMS!
+

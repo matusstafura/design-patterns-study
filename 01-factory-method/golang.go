@@ -34,8 +34,6 @@ func (p Paypal) pay(n int) {
 	fmt.Print("paid by paypal")
 }
 
-type Notification struct{}
-
 func NewPaymentGateway(gatewayType string, amount int) PaymentGateway {
 	if gatewayType == "stripe" {
 		return newStripe(amount)
