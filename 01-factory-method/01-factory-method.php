@@ -1,11 +1,12 @@
 <?php
 
+// Product Interface
 interface Notification
 {
     public function send(string $message): void;
 }
 
-// Concrete Classes
+// Concrete Class
 class EmailNotification implements Notification
 {
     public function send(string $message): void
@@ -14,6 +15,7 @@ class EmailNotification implements Notification
     }
 }
 
+// Concrete Class
 class SmsNotification implements Notification
 {
     public function send(string $message): void
@@ -34,7 +36,7 @@ abstract class NotificationService
     }
 }
 
-// Concrete Factories
+// Concrete Factory
 class EmailService extends NotificationService
 {
     protected function createNotification(): Notification
@@ -43,6 +45,7 @@ class EmailService extends NotificationService
     }
 }
 
+// Concrete Factory
 class SmsService extends NotificationService
 {
     protected function createNotification(): Notification
@@ -51,6 +54,7 @@ class SmsService extends NotificationService
     }
 }
 
+// Client Code
 class Client
 {
     public function __construct(protected NotificationService $service)

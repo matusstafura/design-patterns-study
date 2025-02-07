@@ -2,75 +2,76 @@
 
 ## List of Design Patterns
 
-### Creational patterns
-
-- [ ] Abstract factory
-- [ ] Builder
-- [ ] Dependency Injection
-- [ ] Factory method
-- [ ] Lazy initialization
-- [ ] Multiton
-- [ ] Object pool
-- [ ] Prototype
-- [ ] Resource acquisition is initialization (RAII)
-- [ ] Singleton
-
-### Structural patterns
-
-- [ ] Adapter, Wrapper, or Translator
-- [ ] Bridge
-- [ ] Composite
-- [ ] Decorator
-- [ ] Delegation
-- [ ] Extension object
-- [ ] Facade
-- [ ] Flyweight
-- [ ] Front controller
-- [ ] Marker
-- [ ] Module
-- [ ] Proxy
-- [ ] Twin
-
-### Behavioral patterns
-
-- [ ] Blackboard
-- [ ] Chain of responsibility
-- [ ] Command
-- [ ] Fluent interface
-- [ ] Interpreter
-- [ ] Iterator
-- [ ] Mediator
-- [ ] Memento
-- [ ] Null object
-- [ ] Observer or Publish/subscribe
-- [ ] Servant
-- [ ] Specification
-- [ ] State
-- [ ] Strategy
-- [ ] Template method
-- [ ] Visitor
-
-### Concurrency patterns
-
-- [ ] Active Object
-- [ ] Balking
-- [ ] Binding properties
-- [ ] Compute kernel
-- [ ] Double-checked locking
-- [ ] Event-based asynchronous
-- [ ] Guarded suspension
-- [ ] Join
-- [ ] Lock
-- [ ] Messaging design pattern (MDP)
-- [ ] Monitor object
-- [ ] Reactor
-- [ ] Read-write lock
-- [ ] Scheduler
-- [ ] Service handler pattern
-- [ ] Thread pool
-- [ ] Thread-specific storage
-- [ ] Safe Concurrency with Exclusive Ownership
-- [ ] CPU atomic operation
+| Extra       | Name                                      | C++ | Java | GO | JS | PHP | Python |
+|-------------|-------------------------------------------|-----|------|----|----|-----|--------|
+| Creational  | Factory Method                            | ❌   | ❌    | ❌  | ❌  | ✅   | ❌      |
+| Creational  | Abstract Factory                          | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | Builder                                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | Prototype                                 | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | Singleton                                 | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | Static Factory Method                     | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | Pool                                      | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | Simple Factory                            | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | Dependency Injection                      | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | Lazy initialization                       | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | Multiton                                  | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | Object pool                               | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Creational  | RAII                                      | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Adapter                                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Bridge                                    | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Composite                                 | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Data Mapper                               | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Decorator                                 | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Delegation                                | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Dependency Injection                      | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Extension object                          | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Facade                                    | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Fluent Interface                          | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Flyweight                                 | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Front controller                          | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Marker                                    | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Module                                    | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Proxy                                     | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Registry                                  | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Structural  | Twin                                      | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Blackboard                                | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Chain of Responsibility                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Command                                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Fluent interface                          | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Interpreter                               | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Iterator                                  | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Mediator                                  | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Memento                                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Null Object                               | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Observer                                  | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Servant                                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Specification                             | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | State                                     | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Strategy                                  | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Template Method                           | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Behavioral  | Visitor                                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Extra       | Service Locator                           | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Extra       | Repository                                | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Extra       | Entity-Attribute-Value (EAV)              | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Active Object                             | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Balking                                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Binding properties                        | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Compute kernel                            | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Double-checked locking                    | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Event-based asynchronous                  | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Guarded suspension                        | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Join                                      | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Lock                                      | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Messaging design pattern (MDP)            | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Monitor object                            | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Reactor                                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Read-write lock                           | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Scheduler                                 | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Service handler pattern                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Thread pool                               | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Thread-specific storage                   | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | Safe Concurrency with Exclusive Ownership | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
+| Concurrency | CPU atomic operation                      | ❌   | ❌    | ❌  | ❌  | ❌   | ❌      |
 
 ### Study Materials
 
