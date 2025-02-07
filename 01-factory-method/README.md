@@ -1,4 +1,4 @@
-## Factory Method in PHP
+## Factory Method
 
 ### Definition
 
