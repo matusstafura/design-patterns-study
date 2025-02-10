@@ -4,7 +4,7 @@
 
 | Extra       | Name                                      | C++ | Java | GO | JS | PHP | Python |
 |-------------|-------------------------------------------|-----|------|----|----|-----|--------|
-| Creational  | Factory Method                            | ❌  | ❌   | ❌ | ✅ | ✅  | ✅     |
+| Creational  | Factory Method                            | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Creational  | Abstract Factory                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Creational  | Builder                                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Creational  | Prototype                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
