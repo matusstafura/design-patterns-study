@@ -1,92 +1,105 @@
 <?php
 
-/* 
- * The Abstract Factory pattern provides an 
- * interface for creating families of related or 
- * dependent objects without specifying their concrete classes. 
-*/
-interface ComputerFactory
+// 1. Abstract Factory Interface
+// Defines methods to create different types of related objects (Sender & Logger)
+interface NotificationService
 {
-    public function createOS(): OSTemplate;
-    public function createSetup(): SetupTemplate;
+    public function createSender(): MessageSender;
+    public function createLogger(): MessageLogger;
 }
 
-class LinuxFactory implements ComputerFactory
+// 2. Concrete Factories
+// Each factory creates a family of related objects (Email or SMS)
+
+class EmailNotificationService implements NotificationService
 {
-    public function createOS(): OSTemplate
+    public function createSender(): MessageSender
     {
-        return new LinuxOS();
+        return new EmailSender();
     }
 
-    public function createSetup(): SetupTemplate
+    public function createLogger(): MessageLogger
     {
-        return new LinuxSetup();
-    }
-}
-
-class MacbookFactory implements ComputerFactory
-{
-    public function createOS(): OSTemplate
-    {
-        return new MacOS();
-    }
-
-    public function createSetup(): SetupTemplate
-    {
-        return new MacSetup();
+        return new EmailLogger();
     }
 }
 
-interface OSTemplate
+class SMSNotificationService implements NotificationService
 {
-    public function install();
-}
-
-class LinuxOS implements OSTemplate
-{
-    public function install()
+    public function createSender(): MessageSender
     {
-        return "installing linux\n";
+        return new SMSSender();
+    }
+
+    public function createLogger(): MessageLogger
+    {
+        return new SMSLogger();
     }
 }
 
-class MacOS implements OSTemplate
+// 3. Abstract Product Interfaces
+// These define the behaviors for sending messages and logging them
+
+interface MessageSender
 {
-    public function install()
+    public function send(string $recipient, string $message): string;
+}
+
+interface MessageLogger
+{
+    public function log(string $message): string;
+}
+
+// 4. Concrete Products
+// Implementations for Email Notifications
+
+class EmailSender implements MessageSender
+{
+    public function send(string $recipient, string $message): string
     {
-        return "installing mac os\n";
+        return "Sent Email to $recipient: $message\n";
     }
 }
 
-interface SetupTemplate
+class EmailLogger implements MessageLogger
 {
-    public function build();
-}
-
-class LinuxSetup implements SetupTemplate
-{
-    public function build()
+    public function log(string $message): string
     {
-        return "building desktop\n";
+        return "Email Log: $message\n";
     }
 }
 
-class MacSetup implements SetupTemplate
+// Implementations for SMS Notifications
+class SMSSender implements MessageSender
 {
-    public function build()
+    public function send(string $recipient, string $message): string
     {
-        return "building notebook\n";
+        return "Sent SMS to $recipient: $message\n";
     }
 }
 
-function clientCode(ComputerFactory $f)
+class SMSLogger implements MessageLogger
 {
-    $os = $f->createOS();
-    $setup = $f->createSetup();
-    echo $os->install();
-    echo $setup->build();
+    public function log(string $message): string
+    {
+        return "SMS Log: $message\n";
+    }
 }
 
-clientCode(new LinuxFactory());
-clientCode(new MacbookFactory());
+// 5. Client Code
+// The client does not need to know if it is using Email or SMS.
+// It only works with the NotificationService interface.
+
+function sendNotification(NotificationService $service, string $recipient, string $message)
+{
+    $sender = $service->createSender();
+    echo $sender->send($recipient, $message);
+
+    $logger = $service->createLogger();
+    echo $logger->log($message);
+}
+
+// Example usage
+sendNotification(new EmailNotificationService(), "user@example.com", "Hello via Email!");
+sendNotification(new SMSNotificationService(), "+123456789", "Hello via SMS!");
 
