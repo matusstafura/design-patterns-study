@@ -58,8 +58,10 @@ Social* clientCode(string platform) {
 }
 
 int main() {
-    
     Social* social = clientCode("bs");
-    social->login();
+    if (social) {
+        social->login();
+        delete social;
+    }
     return 0;
 }
