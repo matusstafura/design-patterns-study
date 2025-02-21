@@ -7,7 +7,7 @@
 | Creational  | Factory Method                            | ✅  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Creational  | Abstract Factory                          | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Creational  | Builder                                   | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Creational  | Prototype                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Creational  | Prototype                                 | ❌  | ❌   | ❌ | ❌ | ✅  | ✅     |
 | Creational  | Singleton                                 | ❌  | ❌   | ❌ | ❌ | ✅  | ❌     |
 | Creational  | Static Factory Method                     | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Creational  | Pool                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
