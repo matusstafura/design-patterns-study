@@ -17,7 +17,7 @@
 | Creational  | Multiton                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Creational  | Object pool                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Creational  | RAII                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Adapter                                   | ❌  | ❌   | ❌ | ❌ | ✅  | ❌     |
+| Structural  | Adapter                                   | ❌  | ❌   | ❌ | ✅ | ✅  | ❌     |
 | Structural  | Bridge                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Composite                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
