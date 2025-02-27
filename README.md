@@ -2,7 +2,7 @@
 
 ## List of Design Patterns
 
-| Extra       | Name                                      | C++ | Java | GO | JS | PHP | Python |
+| Type        | Name                                      | C++ | Java | GO | JS | PHP | Python |
 |-------------|-------------------------------------------|-----|------|----|----|-----|--------|
 | Creational  | Factory Method                            | ✅  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Creational  | Abstract Factory                          | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
@@ -18,7 +18,7 @@
 | Creational  | Object pool                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Creational  | RAII                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Adapter                                   | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Structural  | Bridge                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Structural  | Bridge                                    | ❌  | ❌   | ❌ | ❌ | ✅  | ❌     |
 | Structural  | Composite                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Decorator                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
