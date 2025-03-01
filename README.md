@@ -18,7 +18,7 @@
 | Creational  | Object pool                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Creational  | RAII                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Adapter                                   | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Structural  | Bridge                                    | ❌  | ❌   | ✅ | ✅ | ✅  | ✅     |
+| Structural  | Bridge                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Structural  | Composite                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Decorator                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
