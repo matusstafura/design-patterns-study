@@ -19,7 +19,7 @@
 | Creational  | RAII                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Adapter                                   | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Structural  | Bridge                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Structural  | Composite                                 | ❌  | ❌   | ✅ | ✅ | ✅  | ✅     |
+| Structural  | Composite                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Decorator                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Delegation                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
