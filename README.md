@@ -21,7 +21,7 @@
 | Structural  | Bridge                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Structural  | Composite                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Decorator                                 | ❌  | ❌   | ✅ | ✅ | ✅  | ✅     |
+| Structural  | Decorator                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Structural  | Delegation                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Dependency Injection                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Extension object                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
