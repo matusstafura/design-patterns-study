@@ -25,7 +25,7 @@
 | Structural  | Delegation                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Dependency Injection                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Extension object                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Facade                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Structural  | Facade                                    | ❌  | ❌   | ❌ | ❌ | ✅  | ❌     |
 | Structural  | Fluent Interface                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Flyweight                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Front controller                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
