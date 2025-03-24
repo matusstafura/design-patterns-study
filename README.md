@@ -9,23 +9,12 @@
 | Creational  | Builder                                   | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Creational  | Prototype                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Creational  | Singleton                                 | ❌  | ❌   | ❌ | ❌ | ✅  | ❌     |
-| Creational  | Static Factory Method                     | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Creational  | Pool                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Creational  | Simple Factory                            | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Creational  | Dependency Injection                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Creational  | Lazy initialization                       | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Creational  | Multiton                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Creational  | Object pool                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Creational  | RAII                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Adapter                                   | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Structural  | Bridge                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Structural  | Composite                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Decorator                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Structural  | Delegation                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Dependency Injection                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Extension object                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Facade                                    | ❌  | ❌   | ❌ | ❌ | ✅  | ✅     |
+| Structural  | Facade                                    | ❌  | ❌   | ✅ | ❌ | ✅  | ✅     |
 | Structural  | Fluent Interface                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Flyweight                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Front controller                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
@@ -50,6 +39,19 @@
 | Behavioral  | Strategy                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Behavioral  | Template Method                           | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Behavioral  | Visitor                                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+
+## Extra
+| Creational  | Static Factory Method                     | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Creational  | Pool                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Creational  | Simple Factory                            | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Creational  | Dependency Injection                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Creational  | Lazy initialization                       | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Creational  | Multiton                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Creational  | Object pool                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Creational  | RAII                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Structural  | Delegation                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Structural  | Dependency Injection                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Structural  | Extension object                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Extra       | Service Locator                           | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Extra       | Repository                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Extra       | Entity-Attribute-Value (EAV)              | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
