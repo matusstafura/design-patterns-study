@@ -14,7 +14,7 @@
 |    | Structural  | Composite                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 |    | Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Decorator                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| 10 | Structural  | Facade                                    | ❌  | ❌   | ✅ | ✅ | ✅  | ✅     |
+| 10 | Structural  | Facade                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 |    | Structural  | Fluent Interface                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Flyweight                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Front controller                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
