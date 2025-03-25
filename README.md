@@ -2,43 +2,43 @@
 
 ## List of Design Patterns
 
-| Type        | Name                                      | C++ | Java | GO | JS | PHP | Python |
-|-------------|-------------------------------------------|-----|------|----|----|-----|--------|
-| Creational  | Factory Method                            | ✅  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Creational  | Abstract Factory                          | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Creational  | Builder                                   | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Creational  | Prototype                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Creational  | Singleton                                 | ❌  | ❌   | ❌ | ❌ | ✅  | ❌     |
-| Structural  | Adapter                                   | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Structural  | Bridge                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Structural  | Composite                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Decorator                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| Structural  | Facade                                    | ❌  | ❌   | ✅ | ❌ | ✅  | ✅     |
-| Structural  | Fluent Interface                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Flyweight                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Front controller                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Marker                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Module                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Proxy                                     | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Registry                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Structural  | Twin                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Blackboard                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Chain of Responsibility                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Command                                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Fluent interface                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Interpreter                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Iterator                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Mediator                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Memento                                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Null Object                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Observer                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Servant                                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Specification                             | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | State                                     | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Strategy                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Template Method                           | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-| Behavioral  | Visitor                                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|  # | Type        | Name                                      | C++ | Java | GO | JS | PHP | Python |
+|----|-------------|-------------------------------------------|-----|------|----|----|-----|--------|
+|    | Creational  | Factory Method                            | ✅  | ✅   | ✅ | ✅ | ✅  | ✅     |
+|    | Creational  | Abstract Factory                          | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
+|    | Creational  | Builder                                   | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
+|    | Creational  | Prototype                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
+|    | Creational  | Singleton                                 | ❌  | ❌   | ❌ | ❌ | ✅  | ❌     |
+|    | Structural  | Adapter                                   | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
+|    | Structural  | Bridge                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
+|    | Structural  | Composite                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
+|    | Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Structural  | Decorator                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
+| 10 | Structural  | Facade                                    | ❌  | ❌   | ✅ | ✅ | ✅  | ✅     |
+|    | Structural  | Fluent Interface                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Structural  | Flyweight                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Structural  | Front controller                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Structural  | Marker                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Structural  | Module                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Structural  | Proxy                                     | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Structural  | Registry                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Structural  | Twin                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Blackboard                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Chain of Responsibility                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Command                                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Fluent interface                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Interpreter                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Iterator                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Mediator                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Memento                                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Null Object                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Observer                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Servant                                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Specification                             | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | State                                     | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Strategy                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Template Method                           | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+|    | Behavioral  | Visitor                                   | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 
 ## Extra
 | Creational  | Static Factory Method                     | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
