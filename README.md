@@ -15,8 +15,7 @@
 |    | Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Decorator                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | 10 | Structural  | Facade                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-|    | Structural  | Fluent Interface                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-|    | Structural  | Flyweight                                 | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| 11 | Structural  | Flyweight                                 | ❌  | ❌   | ❌ | ❌ | ✅  | ❌     |
 |    | Structural  | Front controller                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Marker                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Module                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
@@ -52,6 +51,7 @@
 | Structural  | Delegation                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Dependency Injection                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Extension object                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Structural  | Fluent Interface                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Extra       | Service Locator                           | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Extra       | Repository                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Extra       | Entity-Attribute-Value (EAV)              | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
