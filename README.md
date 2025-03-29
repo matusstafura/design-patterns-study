@@ -15,7 +15,7 @@
 |    | Structural  | Data Mapper                               | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Decorator                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | 10 | Structural  | Facade                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| 11 | Structural  | Flyweight                                 | ❌  | ❌   | ✅ | ❌ | ✅  | ✅     |
+| 11 | Structural  | Flyweight                                 | ❌  | ❌   | ✅ | ✅ | ✅  | ✅     |
 |    | Structural  | Front controller                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Marker                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Module                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
