@@ -16,10 +16,7 @@
 |    | Structural  | Decorator                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | 10 | Structural  | Facade                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | 11 | Structural  | Flyweight                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-|    | Structural  | Front controller                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-|    | Structural  | Marker                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-|    | Structural  | Module                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
-|    | Structural  | Proxy                                     | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| 12 | Structural  | Proxy                                     | ❌  | ❌   | ❌ | ❌ | ✅  | ❌     |
 |    | Structural  | Registry                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Twin                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Behavioral  | Blackboard                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
@@ -52,6 +49,9 @@
 | Structural  | Dependency Injection                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Extension object                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Structural  | Fluent Interface                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Structural  | Front controller                          | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Structural  | Marker                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
+| Structural  | Module                                    | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Extra       | Service Locator                           | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Extra       | Repository                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 | Extra       | Entity-Attribute-Value (EAV)              | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
