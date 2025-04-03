@@ -16,7 +16,7 @@
 |    | Structural  | Decorator                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | 10 | Structural  | Facade                                    | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
 | 11 | Structural  | Flyweight                                 | ❌  | ✅   | ✅ | ✅ | ✅  | ✅     |
-| 12 | Structural  | Proxy                                     | ❌  | ❌   | ❌ | ❌ | ✅  | ❌     |
+| 12 | Structural  | Proxy                                     | ❌  | ❌   | ❌ | ❌ | ✅  | ✅     |
 |    | Structural  | Registry                                  | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Structural  | Twin                                      | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
 |    | Behavioral  | Blackboard                                | ❌  | ❌   | ❌ | ❌ | ❌  | ❌     |
